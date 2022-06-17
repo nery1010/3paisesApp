@@ -10,6 +10,8 @@ export class PaisTableComponent implements OnInit {
 
   @Input() paises: Country[] = [];
 
+  // @Input() capitales: Country[] = [];
+
   constructor() { }
 
   ngOnInit(): void {

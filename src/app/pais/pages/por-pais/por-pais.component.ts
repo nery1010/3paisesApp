@@ -32,6 +32,11 @@ export class PorPaisComponent implements OnInit {
   
   }
 
+  sugerencias(termino: string) {
+    console.log(termino);
+    
+    this.hayError=false;
+  }
 
 }
 

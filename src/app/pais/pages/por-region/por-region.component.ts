@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PorRegionComponent implements OnInit {
 
+  
+  capital = [];
+  termino: string = '';
+  hayError: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
